@@ -1,0 +1,9 @@
+<Department name="Head Office">
+    <Department name="HR">
+        <Employee name="Alice" salary="50000.0" />
+    </Department>
+    <Department name="IT">
+        <Employee name="Bob" salary="60000.0" />
+        <Employee name="Charlie" salary="70000.0" />
+    </Department>
+</Department>

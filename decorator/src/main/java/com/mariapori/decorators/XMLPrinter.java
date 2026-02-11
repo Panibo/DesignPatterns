@@ -1,0 +1,17 @@
+package com.mariapori.decorators;
+
+import com.mariapori.printers.Printer;
+
+public class XMLPrinter extends PrinterDecorator {
+
+    public XMLPrinter(Printer printer) {
+        super(printer);
+    }
+
+    @Override
+    public void print(String message) {
+        String xmlMessage = "<message>" + message + "</message>";
+        printer.print(xmlMessage);
+    }
+
+}

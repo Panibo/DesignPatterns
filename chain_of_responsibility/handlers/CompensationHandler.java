@@ -16,7 +16,7 @@ public class CompensationHandler extends  FeedbackHandler {
             System.out.print("Enter your choice: ");
             switch (scanner.nextInt()) {
                 case 1 -> System.out.println("[CompensationHandler] Compensation request approved.\n");
-                case 2 -> System.out.println("[CompensationHandler] Compensation request rejected.\n1");
+                case 2 -> System.out.println("[CompensationHandler] Compensation request rejected.\n");
                 default -> throw new AssertionError();
             }
         } else if (nextHandler != null) {

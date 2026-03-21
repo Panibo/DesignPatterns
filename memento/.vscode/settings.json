@@ -1,0 +1,3 @@
+{
+  "jdk.runConfig.vmOptions": "--module-path /Library/Java/javafx-sdk-26/lib --add-modules javafx.controls"
+}
